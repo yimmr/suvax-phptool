@@ -1,0 +1,22 @@
+{
+    "name": "suvax/phptool",
+    "autoload": {
+        "psr-4": {
+            "SuvaxPHPTool\\": "src/"
+        },
+        "files": [
+            "src/main.php"
+        ]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "imoncn",
+            "email": "160865627@qq.com"
+        }
+    ],
+    "scripts": {
+        "build": "php build.php"
+    },
+    "require": {}
+}
